@@ -61,3 +61,6 @@ Route::get('Tugas1', function () {
 Route::get('tugaslinktree', function () {
 	return view('tugaslinktree');
 });
+Route::get('frontend', function () {
+	return view('frontend');
+});
