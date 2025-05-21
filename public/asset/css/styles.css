@@ -10952,7 +10952,7 @@ header.masthead {
   justify-content: center;
   text-align: center;
   color: #fff;
-  background-image: url("..public/asset/assets/img/banner.avif");
+  background-image: url("/asset/assets/img/banner.avif");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;

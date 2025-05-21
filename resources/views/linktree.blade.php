@@ -46,9 +46,9 @@
     <video autoplay muted loop id="bg-video">
         <source src="https://files.catbox.moe/sihtrn.mp4" type="video/mp4">
         Your browser does not support the video tag.
-    </video> 
+    </video>
     <center>
-      <img class="profile-img" src="https://i.imgur.com/U863O4U.png" alt="NBA Fanbase">
+      <img class="profile-img" src="/asset/assets/img/nba fanbase.png" alt="NBA Fanbase">
         <h2>🏀 NBA Fanbase</h2>
         <p>
             🔥 Highlights | 🗓️ Jadwal | 📊 Statistik<br>
@@ -66,7 +66,7 @@
             <a href="https://www.espn.com/nba/schedule" target="_blank" style="text-decoration: none; color:black;"> <!-- ganti warna text jadi hitam -->
              <div class="card-body">
                 🗓️ Jadwal & Skor Live
- 
+
              </div>
             </a>
           </div>
@@ -74,9 +74,9 @@
             <a href="https://www.espn.com/nba/stats" target="_blank" style="text-decoration: none; color:black;"> <!-- ganti warna text jadi hitam -->
              <div class="card-body">
                 📊 Statistik Pemain & Tim
- 
+
              </div>
-            </a> 
+            </a>
          </div>
          <div class="card col-lg-4 m-2" style="border-radius: 30px;">
             <a href="https://bleacherreport.com/nba" target="_blank" style="text-decoration: none; color:black;"> <!-- ganti warna text jadi hitam -->
@@ -85,7 +85,7 @@
                 </div>
             </a>
         </div>
-        
+
         <div class="card col-lg-4 m-2" style="border-radius: 30px;">
             <a href="https://www.instagram.com/nba/" target="_blank" style="text-decoration: none; color:black;"> <!-- ganti warna text jadi hitam -->
                 <div class="card-body">
@@ -93,7 +93,7 @@
                 </div>
             </a>
           </div>
-         
+
           <div class="card col-lg-4 m-2" style="border-radius: 30px;">
             <a href="https://store.nba.com/" target="_blank" style="text-decoration: none; color:black;"> <!-- ganti warna text jadi hitam -->
                 <div class="card-body">
@@ -104,9 +104,9 @@
         <br>
         <p style="font-size: 10pt;"><b>Copyright El Barok</b></p>
     </center>
-      
-      
-      
-    
+
+
+
+
 </body>
 </html>
