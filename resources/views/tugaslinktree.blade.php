@@ -20,7 +20,7 @@
 
         /*COVER PHOTO*/
         .cover-photo {
-            background-image: url('https://i.imgur.com/9pWB4Lz.png'); /* Gambar cover dari imgur */
+            background-image: url('/asset/assets/img/backroundlinktree.png'); /* Gambar cover dari imgur */
             background-size: cover; /* Biar gambar penuh menutupi div */
             background-position: center; /* Posisinya di tengah */
             background-repeat: no-repeat;
@@ -139,13 +139,13 @@
 
        <!-- SOCIAL ICONS SECTION -->
        <div class="social-icons">
-           <a href="https://www.instagram.com/nba2k" target="_blank"><img src="https://i.imgur.com/LrK0Quy.png" alt="Instagram"/></a>
-           <a href="https://www.tiktok.com/@nba2k" target="_blank"><img src="https://i.imgur.com/rwZXQZy.png" alt="TikTok"/></a>
-           <a href="https://x.com/nba2k" target="_blank"><img src="https://i.imgur.com/rwZXQZy.png" alt="X/Twitter"/></a>
-           <a href="https://www.youtube.com/user/2KSports/2k" target="_blank"><img src="https://i.imgur.com/rgT8bt7.png" alt="YouTube"/></a>
-           <a href="https://www.twitch.tv/nba2k" target="_blank"><img src="https://i.imgur.com/fPuyPi3.png" alt="Twitch"/></a>
-           <a href="https://www.facebook.com/NBA2K" target="_blank"><img src="https://i.imgur.com/TRY5PQ7.png" alt="Facebook"/></a>
-           <a href="https://www.threads.net/@nba2k" target="_blank"><img src="https://i.imgur.com/ArPGvAm.png" alt="Threads"/></a>
+           <a href="https://www.instagram.com/nba2k" target="_blank"><img src="/asset/assets/img/instagram.png" alt="Instagram"/></a>
+           <a href="https://www.tiktok.com/@nba2k" target="_blank"><img src="/asset/assets/img/tiktok.png" alt="TikTok"/></a>
+           <a href="https://x.com/nba2k" target="_blank"><img src="/asset/assets/img/twitter.png" alt="X/Twitter"/></a>
+           <a href="https://www.youtube.com/user/2KSports/2k" target="_blank"><img src="/asset/assets/img/youtube.png" alt="YouTube"/></a>
+           <a href="https://www.twitch.tv/nba2k" target="_blank"><img src="/asset/assets/img/twitch.png" alt="Twitch"/></a>
+           <a href="https://www.facebook.com/NBA2K" target="_blank"><img src="/asset/assets/img/facebook.png" alt="Facebook"/></a>
+           <a href="https://www.threads.net/@nba2k" target="_blank"><img src="/asset/assets/img/threads.png" alt="Threads"/></a>
        </div>
 
         <!-- CARD SECTION -->
@@ -153,7 +153,7 @@
             <div class="card col-lg-5 m-3"> <!-- lg 4 itu ukurannya 4 kolom grid (m-2) itu margin -->
                 <a href="https://nba.2k.com/2k25/courtside-report/season-6/?utm_medium=social&utm_source=linktree&utm_campaign=nba+2k25+%7C+season+6+courtside+report" target="_blank">
                     <div class="card-body"> <!-- Bikin card bodynya -->
-                        <img src="https://i.imgur.com/BEHh0Ut.png" alt="Logo 1">
+                        <img src="/asset/assets/img/NBA_2K25_Season_6_Courtside_Report.png" alt="Logo 1">
                         NBA 2K25 | Season 6 Courtside Report
                     </div>
                 </a>
@@ -162,7 +162,7 @@
             <div class="card col-lg-5 m-3">
                 <a href="https://nba.2k.com/2k25/buy/?utm_medium=social&utm_source=linktree&utm_campaign=buy+nba+2k25+today" target="_blank">
                     <div class="card-body">
-                        <img src="https://i.imgur.com/4NDaTev.png" alt="Logo 2">
+                        <img src="/asset/assets/img/buy NBA 2K25 Today.png" alt="Logo 2">
                         Buy NBA 2K25 Today
                     </div>
                 </a>
@@ -171,7 +171,7 @@
             <div class="card col-lg-5 m-3">
                 <a href="https://store.empi.re/pages/empire-2k25-present-music-to-ball-to" target="_blank">
                     <div class="card-body">
-                        <img src="https://i.imgur.com/AsMxO5I.png" alt="Logo 3">
+                        <img src="/asset/assets/img/Empire Music to Ball To Vinyl Box Set.png" alt="Logo 3">
                         Empire "Music to Ball To" Vinyl Box Set
                     </div>
                 </a>
@@ -180,7 +180,7 @@
             <div class="card col-lg-5 m-3">
                 <a href="https://nba.2k.com/2k25/ratings/?utm_medium=social&utm_source=linktree&utm_campaign=nba+2k25+%7C+official+player+ratings" target="_blank">
                     <div class="card-body">
-                        <img src="https://i.imgur.com/AfAuwxu.png" alt="Logo 4">
+                        <img src="/asset/assets/img/NBA 2K25  Official Player Ratings.png" alt="Logo 4">
                         NBA 2K25 | Official Player Ratings
                     </div>
                 </a>
@@ -189,7 +189,7 @@
             <div class="card col-lg-5 m-3">
                 <a href="https://nba.2k.com/2k25/courtside-report/season-5/?utm_medium=social&utm_source=linktree&utm_campaign=nba+2k25+%7C+season+5+courtside+report" target="_blank">
                     <div class="card-body">
-                        <img src="https://i.imgur.com/T4EVypw.png" alt="Logo 5">
+                        <img src="/asset/assets/img/NBA 2K25 Season 5 Report.png" alt="Logo 5">
                         NBA 2k25 | Season 5 Courtside Report
                     </div>
                 </a>
@@ -198,7 +198,7 @@
             <div class="card col-lg-5 m-3">
                 <a href="https://nba.2k.com/2k25/courtside-report/season-4/?utm_medium=social&utm_source=linktree&utm_campaign=nba+2k25+%7C+season+4+courtside+report" target="_blank">
                     <div class="card-body">
-                        <img src="https://i.imgur.com/P8u70C0.png" alt="Logo 6">
+                        <img src="/asset/assets/img/NBA 2K25 Season 4 Report.png" alt="Logo 6">
                         NBA 2k25 | Season 4 Courtside Report
                     </div>
                 </a>
@@ -207,7 +207,7 @@
             <div class="card col-lg-5 m-3">
                 <a href="https://nba.2k.com/2k25/courtside-report/season-3/?utm_medium=social&utm_source=linktree&utm_campaign=nba+2k25+%7C+season+3+courtside+report" target="_blank">
                     <div class="card-body">
-                        <img src="https://i.imgur.com/eQ6vSFc.png" alt="Logo 7">
+                        <img src="/asset/assets/img/NBA 2K25 Season 3 Report.png" alt="Logo 7">
                         NBA 2k25 | Season 3 Courtside Report
                     </div>
                 </a>
@@ -216,7 +216,7 @@
             <div class="card col-lg-5 m-3">
                 <a href="https://discord.com/servers/nba-2k-887383292142297089" target="_blank">
                     <div class="card-body">
-                        <img src="https://i.imgur.com/Lkqzimd.png" alt="Logo 8">
+                        <img src="/asset/assets/img/join discord.png" alt="Logo 8">
                         Join the NBA 2K Discord Server
                     </div>
                 </a>
