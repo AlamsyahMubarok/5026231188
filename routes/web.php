@@ -83,3 +83,8 @@ Route::get('/blog/kontak', [BlogController::class,'kontak']);
 
 //crud pegaawai
 Route::get('/pegawai', [PegawaiController::class,'index']);
+Route::get('/pegawai', [PegawaiController::class,'tambah']);
+Route::get('/pegawai', [PegawaiController::class,'store']);
+Route::get('/pegawai', [PegawaiController::class,'edit']);
+Route::get('/pegawai', [PegawaiController::class,'update']);
+Route::get('/pegawai', [PegawaiController::class,'hapus']);
