@@ -71,7 +71,7 @@ Route::get('frontend', function () {
 Route::get('dosen', [Link::class,'index']);
 
 
-Route::get('/pegawai/{nama}', [Pegawai2Controller::class,'index']);
+// Route::get('/pegawai/{nama}', [Pegawai2Controller::class,'index']);
 
 Route::get('/formulir', [Pegawai2Controller::class,'formulir']);
 Route::post('/formulir/proses', [Pegawai2Controller::class,'proses']);
@@ -83,8 +83,9 @@ Route::get('/blog/kontak', [BlogController::class,'kontak']);
 
 //crud pegaawai
 Route::get('/pegawai', [PegawaiController::class,'index']);
-Route::get('/pegawai', [PegawaiController::class,'tambah']);
-Route::get('/pegawai', [PegawaiController::class,'store']);
-Route::get('/pegawai', [PegawaiController::class,'edit']);
-Route::get('/pegawai', [PegawaiController::class,'update']);
-Route::get('/pegawai', [PegawaiController::class,'hapus']);
+Route::get('/pegawai/tambah', [PegawaiController::class,'tambah']);
+Route::post('/pegawai/store', [PegawaiController::class,'store']);
+Route::get('/pegawai/edit/{id}', [PegawaiController::class,'edit']);
+Route::post('/pegawai/update', [PegawaiController::class,'update']);
+Route::get('/pegawai/hapus/{id}', [PegawaiController::class,'hapus']);
+Route::get('/pegawai/cari', [PegawaiController::class,'cari']);
