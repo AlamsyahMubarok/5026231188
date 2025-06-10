@@ -5,6 +5,8 @@ use App\Http\Controllers\Link;
 use App\Http\Controllers\Pegawai2Controller;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiController;
+use App\Http\Controllers\CatController;
+
 //import java.io;
 
 //System.out.println();
@@ -89,3 +91,12 @@ Route::get('/pegawai/edit/{id}', [PegawaiController::class,'edit']);
 Route::post('/pegawai/update', [PegawaiController::class,'update']);
 Route::get('/pegawai/hapus/{id}', [PegawaiController::class,'hapus']);
 Route::get('/pegawai/cari', [PegawaiController::class,'cari']);
+
+//crud cat
+Route::get('/cat', [CatController::class, 'index']);
+Route::get('/cat/tambah', [CatController::class, 'tambah']);
+Route::post('/cat/store', [CatController::class, 'store']);
+Route::get('/cat/edit/{id}', [CatController::class, 'edit']);
+Route::post('/cat/update', [CatController::class, 'update']);
+Route::get('/cat/hapus/{id}', [CatController::class, 'hapus']);
+Route::get('/cat/cari', [CatController::class, 'cari']);
