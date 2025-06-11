@@ -6,6 +6,7 @@ use App\Http\Controllers\Pegawai2Controller;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\CatController;
+use App\Http\Controllers\KaryawanController;
 
 //import java.io;
 
@@ -100,3 +101,6 @@ Route::get('/cat/edit/{id}', [CatController::class, 'edit']);
 Route::post('/cat/update', [CatController::class, 'update']);
 Route::get('/cat/hapus/{id}', [CatController::class, 'hapus']);
 Route::get('/cat/cari', [CatController::class, 'cari']);
+
+//crud karyawan
+Route::resource('karyawan', KaryawanController::class);
