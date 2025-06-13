@@ -48,7 +48,13 @@
                 <a class="nav-link" href="#">Latihan 3</a>
             </li>
              <li class="nav-item">
-                <a class="nav-link" href="/karyawan">Latihan EAS</a>
+                <a class="nav-link" href="/karyawan">Latihan EAS Genap</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/karyawan">Latihan EAS Ganjil</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/keranjangbelanja">Latihan EAS Perempuan</a>
             </li>
         </ul>
     </nav>
